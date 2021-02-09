@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" text="text/css" href="./assets/style.css" />
+    <script src="https://kit.fontawesome.com/5c82a30a91.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--started html, css, linked JS-->
+    <!--added header and h tags and text-->
+    <!--updated header-->
+   
+    <header>
+        <a id="view-scores">View Highscores</a>
+        <span id="timer"></span>
+    </header>
+
+
+   <!--updated sections-->
+    <main>
+
+        <section id="start-page">
+            <div class="large-font">JavaScript Flash Cards</div>
+            <br>
+            <h2>Play against the clock</h2>
+            <h3>Answer Flash Cards.</h3>
+            <h5> You can do it!</h5>
+            <button id="start-button" type="button">Start Quiz!</button>
+
+        </section>
+
+        <section id="question-page" class="hide">
+            <h2 id="question"></h2>
+            <ul id="answers">
+            </ul>
+            <h3 id="feedback"></h3>
+            <hr>
+
+        </section>
+
+        <section id="initial-enter" class="hide">
+            <h2>GAME OVER</h2>
+            <h4>Your final score is: <span id="display-score"></span></h4>
+            <span>Enter your initials: </span><input id="initial-text" type="text">
+            <button id="submit-initial">Submit</button>
+        </section>
+
+        <section id="highscore-page" class="hide">
+            <h2>Highscores</h2>
+            <div id="highscore-container">
+            </div>
+            <button id="go-back">Play Again</button>
+            <button id="clear-highscores">Clear Highscores</button>
+        </section>
+
+    </main>
+<br>
+<br>
+<!--added footer-->
+    <div class="container">
+        <footer>
+          <ul>
+            <a href="https://www.instagram.com/adamsthecook/">Instagram</a>
+            <a href="https://www.linkedin.com/in/adam-stevenson-3a1b9b37/">Linkedin</a>
+            <a href="https://github.com/adams1971?tab=repositories">GitHub</a>
+          </ul>
+        </footer>    
+      </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
