@@ -10,6 +10,7 @@ Each time a user resets the game, the question deck will shuffle the order of th
 
 At the end of the quiz, the clock will stop and open a new page notifying the user the GAME OVER. They will see their score and then will be asked to enter and submit their initials which will generate a highscores list. If there is time remaining on the clock it will be added to the overall score.At this point the user will have the option to clear highscores, play again or both.
 
+<img src = "JS-Quiz.png" alt = "screenshot image of site">
 
 APPROACH 
 
